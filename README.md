@@ -11,3 +11,5 @@ The architecture of your network will contain:
 - A generator with a U-Net-based architecture.
 - A discriminator represented by a convolutional PatchGAN classifier (proposed in the pix2pix paper).
 - Note that each epoch can take around 15 seconds on a single V100 GPU.
+
+There are plans to use Cross Entropy Loss to compute the difference between the target image and the generated image
